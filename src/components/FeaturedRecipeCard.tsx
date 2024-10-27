@@ -16,7 +16,6 @@ export default function FeaturedRecipeCard({
                 className="absolute left-1 top-0 w-full h-full object-cover"
                 alt="thumbnails"
               />
-              <div className="gradient-filter absolute left-1 w-full h-full bg-[linear-gradient(180deg,rgba(0,0,0,0)40.47%,#000000_81.6%)]" />
               <div className="flex shrink-0 items-center w-fit rounded-full py-1 px-2 bg-black backdrop-blur">
                 <img
                   src="/assets/images/icons/Star 1.svg"
@@ -35,6 +34,7 @@ export default function FeaturedRecipeCard({
                   {recipe.category.name}
                 </p>
               </div>
+              <div className="gradient-filter absolute left-1 w-full h-full bg-[linear-gradient(180deg,rgba(0,0,0,0)40.47%,#000000_81.6%)]" />
             </div>
           </div>
         </div>
