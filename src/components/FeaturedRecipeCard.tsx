@@ -17,6 +17,14 @@ export default function FeaturedRecipeCard({
                   className="absolute left-1 top-0 w-full h-full object-cover"
                   alt="thumbnails"
                 />
+                <div className="flex flex-col gap-[6px]">
+                  <h3 className="font-bold text-xl leading-[28px] text-white">
+                    {recipe.name}
+                  </h3>
+                  <p className="font-semibold text-xs leading-[18px] text-[#FF4C1C]">
+                    {recipe.category.name}
+                  </p>
+                </div>
                 <div className="flex shrink-0 items-center w-fit rounded-full py-1 px-2 bg-white/20 backdrop-blur">
                   <img
                     src="/assets/images/icons/Star 1.svg"
@@ -26,14 +34,6 @@ export default function FeaturedRecipeCard({
                   <span className="font-semibold text-xs leading-[18px] text-white">
                     4.5
                   </span>
-                </div>
-                <div className="flex flex-col gap-[6px]">
-                  <h3 className="font-bold text-xl leading-[28px] text-white">
-                    {recipe.name}
-                  </h3>
-                  <p className="font-semibold text-xs leading-[18px] text-[#FF4C1C]">
-                    {recipe.category.name}
-                  </p>
                 </div>
               </div>
           </div>
