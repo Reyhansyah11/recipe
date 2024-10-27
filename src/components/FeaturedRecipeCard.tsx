@@ -27,7 +27,7 @@ export default function FeaturedRecipeCard({
                     4.5
                   </span>
                 </div>
-                <div className="flex flex-col gap-[6px] gradient-filter absolute w-full h-full bg-[linear-gradient(180deg,rgba(0,0,0,0)40.47%,#000000_81.6%)] z-10">
+                <div className="flex flex-col gap-[6px]">
                   <h3 className="font-bold text-xl leading-[28px] text-white">
                     {recipe.name}
                   </h3>
