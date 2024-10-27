@@ -6,14 +6,14 @@ export default function RecipeCardResult({ recipe }: RecipeCardResultProps) {
   return (
     <>
       <div className="card">
-          <div className="flex shrink-0 w-[100px] h-20 rounded-[20px] overflow-hidden bg-[#D9D9D9]">
+        <div className="flex rounded-[20px] p-[14px] gap-[14px] bg-white shadow-[0_12px_30px_0_#D6D6D640] transition-all duration-300 hover:shadow-[0_10px_20px_0_#FF4C1C80]">
+          <div className="flex shrink-0 w-[100px] h-20 rounded-[20px] bg-[#D9D9D9] z-2 ">
             <img
               src={`${baseUrl}/${recipe.thumbnail}`}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover z-10"
               alt="thumbnail"
             />
           </div>
-        <div className="flex rounded-[20px] p-[14px] gap-[14px] bg-white shadow-[0_12px_30px_0_#D6D6D640] transition-all duration-300 hover:shadow-[0_10px_20px_0_#FF4C1C80]">
           <div className="flex flex-col w-full">
             <div className="flex items-center justify-between">
               <h3 className="font-bold text-lg leading-[24px]">
