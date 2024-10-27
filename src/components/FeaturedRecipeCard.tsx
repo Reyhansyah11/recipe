@@ -11,7 +11,7 @@ export default function FeaturedRecipeCard({
         <div className="card">
           <img
             src={`${baseUrl}/${recipe.thumbnail}`}
-            className="absolute w-full h-full object-cover"
+            className=" relative w-full h-full object-cover"
             alt="thumbnails"
           />
         </div>
