@@ -578,6 +578,10 @@ video {
   left: 50%;
 }
 
+.left-1{
+  left: -1px
+}
+
 .top-0 {
   top: 0px;
 }
