@@ -587,7 +587,7 @@ video {
 }
 
 .top-0 {
-  top: 0px;
+  top: 40px;
 }
 
 .z-10 {
@@ -669,6 +669,10 @@ video {
 
 .h-8 {
   height: 2rem;
+}
+
+.h-260 {
+  height: 260px;
 }
 
 .h-\[18px\] {
