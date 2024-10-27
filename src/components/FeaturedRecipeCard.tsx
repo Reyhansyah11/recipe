@@ -25,6 +25,7 @@ export default function FeaturedRecipeCard({ recipe }: FeaturedRecipeCardProps) 
                   4.5
                 </span>
               </div>
+            <div className="gradient-filter absolute top-0 left-1 w-full h-260 bg-[linear-gradient(180deg,rgba(0,0,0,0)40.47%,#000000_81.6%)]" />
               <div className="flex flex-col gap-[6px] z-20">
                 <h3 className="font-bold text-xl leading-[28px] text-white">
                   {recipe.name}
@@ -33,7 +34,6 @@ export default function FeaturedRecipeCard({ recipe }: FeaturedRecipeCardProps) 
                   {recipe.category.name}
                 </p>
               </div>
-            <div className="gradient-filter absolute top-0 left-1 w-full h-260 bg-[linear-gradient(180deg,rgba(0,0,0,0)40.47%,#000000_81.6%)]" />
             </div>
           </div>
         </div>
