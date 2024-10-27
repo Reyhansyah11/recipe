@@ -11,7 +11,7 @@ export default function FeaturedRecipeCard({ recipe }: FeaturedRecipeCardProps) 
           <div className="relative w-[200px] h-[280px] rounded-[30px] bg-white overflow-hidden">
             <img
               src={`${baseUrl}/${recipe.thumbnail}`}
-              className="absolute w-full h-full object-cover z-50" 
+              className="absolute w-full h-full object-cover z-20" 
               alt="thumbnails"
             />
             <div className="relative flex flex-col h-full justify-between p-5 z-20">
