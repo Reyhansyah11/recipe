@@ -11,7 +11,7 @@ export default function FeaturedRecipeCard({ recipe }: FeaturedRecipeCardProps) 
           <div className="relative w-[200px] h-[280px] rounded-[30px] bg-white overflow-hidden">
             <img
               src={`${baseUrl}/${recipe.thumbnail}`}
-              className="absolute w-full h-full object-cover z-10" 
+              className="absolute w-full h-full object-cover z-50" 
               alt="thumbnails"
             />
             <div className="relative flex flex-col h-full justify-between p-5 z-20">
@@ -25,8 +25,8 @@ export default function FeaturedRecipeCard({ recipe }: FeaturedRecipeCardProps) 
                   4.5
                 </span>
               </div>
-            <div className="gradient-filter absolute top-0 left-1 w-full h-260 bg-[linear-gradient(180deg,rgba(0,0,0,0)40.47%,#000000_81.6%)]" />
               <div className="flex flex-col gap-[6px] z-20">
+            <div className="gradient-filter absolute top-0 left-1 w-full h-260 bg-[linear-gradient(180deg,rgba(0,0,0,0)40.47%,#000000_81.6%)]" />
                 <h3 className="font-bold text-xl leading-[28px] text-white">
                   {recipe.name}
                 </h3>
