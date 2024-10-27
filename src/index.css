@@ -587,7 +587,7 @@ video {
 }
 
 .top-0 {
-  top: 40px;
+  top: 0px;
 }
 
 .z-10 {
@@ -1272,4 +1272,14 @@ body:has(#BottomNav) {
   --tw-shadow: 0 10px 20px 0 #FF4C1C80;
   --tw-shadow-colored: 0 10px 20px 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #000000;
+  opacity: 0.6;
 }
