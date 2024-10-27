@@ -11,8 +11,13 @@ export default function FeaturedRecipeCard({
         <div className="card">
           <div className="relative w-[200px] h-[280px] rounded-[30px] bg-white overflow-hidden">
               <div className="relative flex flex-col h-full justify-between p-5 z-20">
+                <img
+                  src={`${baseUrl}/${recipe.thumbnail}`}
+                  className="absolute left-1 top-0 w-full h-full object-cover"
+                  alt="thumbnails"
+                />
+            <div className="gradient-filter absolute w-full h-full bg-[linear-gradient(180deg,rgba(0,0,0,0)40.47%,#000000_81.6%)] z-10" />
                 <div className="flex flex-col gap-[6px] z-10">
-            <div className="gradient-filter absolute w-full h-full bg-[linear-gradient(180deg,rgba(0,0,0,0)40.47%,#000000_81.6%)] " />
                   <h3 className="font-bold text-xl leading-[28px] text-white">
                     {recipe.name}
                   </h3>
@@ -20,11 +25,6 @@ export default function FeaturedRecipeCard({
                     {recipe.category.name}
                   </p>
                 </div>
-                <img
-                  src={`${baseUrl}/${recipe.thumbnail}`}
-                  className="absolute left-1 top-0 w-full h-full object-cover"
-                  alt="thumbnails"
-                />
               </div>
           </div>
         </div>
