@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/category/:slug", "destination": "/" },
+    { "source": "/recipe/:slug", "destination": "/" }
+  ]
+}
