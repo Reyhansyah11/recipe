@@ -1303,3 +1303,7 @@ body:has(#BottomNav) {
   background: linear-gradient(to top, rgba(0, 0, 0) 30%, rgba(0, 0, 0, 0.4) 70%);
   opacity: 0.6;
 }
+
+.z-5{
+  z-index: 5;
+}
