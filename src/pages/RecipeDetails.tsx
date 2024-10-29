@@ -80,10 +80,10 @@ export default function RecipeDetails() {
                 <div className="relative w-full h-full flex shrink-0">
                   <img
                     src={`${baseUrl}/${recipe.thumbnail}`}
-                    className="w-full h-full object-cover z-10 gradient-filter absolute w-full h-full bg-[linear-gradient(180deg,rgba(0,0,0,0)40.47%,#000000_81.6%)]"
+                    className="w-full h-full object-cover z-0"
                     alt="thumbnail"
                   />
-                  <div className="gradient-filter absolute w-full h-full bg-[linear-gradient(180deg,rgba(0,0,0,0)40.47%,#000000_81.6%)] " />
+                  <div className="gradient"></div>
                 </div>
               </SwiperSlide>
               {recipe.photos.map((photo) => (
