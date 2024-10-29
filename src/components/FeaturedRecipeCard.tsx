@@ -15,7 +15,7 @@ export default function FeaturedRecipeCard({
         />
         <div className="gradient-overlay"></div>
         <div className="relative flex flex-col h-full justify-between p-5 z-20">
-          <div className="flex items-center w-fit rounded-full py-1 px-2 bg-white/20 backdrop-blur">
+          <div className="flex items-center w-fit rounded-full py-1 px-2 bg-black backdrop-blur">
             <img
               src="/assets/images/icons/Star 1.svg"
               className="w-4 h-4"

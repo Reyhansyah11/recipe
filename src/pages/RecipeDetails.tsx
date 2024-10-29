@@ -113,7 +113,7 @@ export default function RecipeDetails() {
                 {recipe.name}
               </h1>
             </div>
-            <div className="flex shrink-0 items-center w-fit h-fit rounded-full py-1 px-2 bg-white/20 backdrop-blur">
+            <div className="flex shrink-0 items-center w-fit h-fit rounded-full py-1 px-2 bg-black backdrop-blur">
               <img
                 src="/assets/images/icons/Star 1.svg"
                 className="w-4 h-4"
