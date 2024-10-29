@@ -10,13 +10,12 @@ export default function RecipeCardResult({ recipe }: RecipeCardResultProps) {
           <div className="flex shrink-0 w-[100px] h-20 rounded-[20px] overflow-hidden bg-[#D9D9D9] aspect-square">
           </div>
           <div className="flex flex-col w-full">
+            <div className="flex items-center justify-between">
             <img
               src={`${baseUrl}/${recipe.thumbnail}`}
-              className="w-full h-full object-cover z-10"
+              className="w-full h-full object-cover"
               alt="thumbnail"
-              style={{ objectFit: "cover" }}
             />
-            <div className="flex items-center justify-between">
               <h3 className="font-bold text-lg leading-[24px]">
                 {recipe.name}
               </h3>
