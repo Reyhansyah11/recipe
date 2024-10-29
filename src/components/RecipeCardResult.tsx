@@ -14,7 +14,7 @@ export default function RecipeCardResult({ recipe }: RecipeCardResultProps) {
               alt="thumbnail"
             />
           </div>
-          <div className="flex flex-col w-full">z
+          <div className="flex flex-col w-full">
             <div className="flex items-center justify-between">
               <h3 className="font-bold text-lg leading-[24px]">
                 {recipe.name}
