@@ -1307,3 +1307,7 @@ body:has(#BottomNav) {
 .z-5{
   z-index: 5;
 }
+
+.sdw{
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
