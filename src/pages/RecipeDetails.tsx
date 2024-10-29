@@ -83,7 +83,7 @@ export default function RecipeDetails() {
                     className="w-full h-full object-cover z-0"
                     alt="thumbnail"
                   />
-                  <div className="gradient z-5"></div>
+                  <div className="gradient"></div>
                 </div>
               </SwiperSlide>
               {recipe.photos.map((photo) => (
