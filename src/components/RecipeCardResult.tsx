@@ -10,7 +10,7 @@ export default function RecipeCardResult({ recipe }: RecipeCardResultProps) {
           <div className="flex shrink-0 w-[100px] h-20 rounded-[20px] overflow-hidden bg-[#D9D9D9] aspect-square">
             <img
               src={`${baseUrl}/${recipe.thumbnail}`}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover z-10"
               alt="thumbnail"
               style={{ objectFit: "cover" }}
             />
