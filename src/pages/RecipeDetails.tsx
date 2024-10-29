@@ -80,10 +80,10 @@ export default function RecipeDetails() {
                 <div className="relative w-full h-full flex shrink-0">
                   <img
                     src={`${baseUrl}/${recipe.thumbnail}`}
-                    className="w-full h-full object-cover z-5"
+                    className="w-full h-full object-cover z-0"
                     alt="thumbnail"
                   />
-                  <div className="gradient"></div>
+                  <div className="gradient z-5"></div>
                 </div>
               </SwiperSlide>
               {recipe.photos.map((photo) => (
