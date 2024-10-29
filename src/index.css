@@ -1299,7 +1299,7 @@ body:has(#BottomNav) {
   left: 0;
   right: 0;
   bottom: 0;
-  height: 200px;
+  height: 100px;
   background-image: linear-gradient(180deg,rgba(0,0,0,0)10.47%,#000000 81.6%);
   opacity: .5
 }
