@@ -89,13 +89,13 @@ export default function RecipeDetails() {
               {recipe.photos.map((photo) => (
                 <SwiperSlide key={photo.id} className="swiper-slide">
                   <div className="relative w-full h-full flex shrink-0">
-                    <div className="gradient-filter absolute w-full h-full bg-[linear-gradient(180deg,rgba(0,0,0,0)40.47%,#000000_81.6%)] z-10" />
                     <img
                       src={`${baseUrl}/${photo.photo}`}
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-cover z-0"
                       alt="thumbnail"
                     />
                   </div>
+                  <div className="gradient-overlay z-5" />
                 </SwiperSlide>
               ))}
             </Swiper>
@@ -497,7 +497,11 @@ export default function RecipeDetails() {
             />
             <p>Offline-access is available now</p>
           </div>
-          <a target="_blank" href={`${baseUrl}/${recipe.url_file}`} className="py-3 px-5 rounded-full font-semibold text-white text-nowrap transition-all duration-300 shadow-[0_10px_20px_0_#FF4C1C80] bg-[#FF4C1C]">
+          <a
+            target="_blank"
+            href={`${baseUrl}/${recipe.url_file}`}
+            className="py-3 px-5 rounded-full font-semibold text-white text-nowrap transition-all duration-300 shadow-[0_10px_20px_0_#FF4C1C80] bg-[#FF4C1C]"
+          >
             Download Now
           </a>
         </div>
